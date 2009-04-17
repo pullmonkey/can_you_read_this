@@ -7,8 +7,6 @@ module CanYouReadThis
       end
 
       cyrt_joins = text.cyrt_joins
-      logger.error cyrt_joins.inspect
-      logger.error cyrt_scrambles.inspect
 
       new_text = ""
 
