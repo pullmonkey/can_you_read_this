@@ -13,8 +13,8 @@ module CanYouReadThis
       new_text = ""
 
       cyrt_joins.each_with_index do |cj,i|
-        new_text += cj
-        new_text += cyrt_scrambles[i]
+        new_text += cj.to_s
+        new_text += cyrt_scrambles[i].to_s
       end
 
       new_text
